@@ -1,0 +1,242 @@
+{
+    "components": [
+        {
+            "id": 4361531,
+            "m_angle": 0.0,
+            "m_guid": {
+                "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+            },
+            "m_height": 720.0,
+            "m_width": 1280.0,
+            "m_x": -938.0,
+            "m_y": -667.0,
+            "m_zoom": 0.30000001192092896
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "4aba133c99a8f5d162ee80598f5d90507586c5e6592a280d33f211d0b16048e6"
+            },
+            "m_height": 50.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 50.0
+        },
+        {
+            "id": 1108258522,
+            "m_guid": {
+                "guid": "7f066a87c6f68e7ef3792980b9042fbc59677bb32148714a32d0e21d87a42f17"
+            },
+            "m_screenHeight": 6.28000020980835,
+            "m_tileHeight": 0.0,
+            "m_tileWidth": 0.0,
+            "m_tilemapData": {
+                "m_gridHeightInCells": 200,
+                "m_gridWidthInCells": 200,
+                "m_lastCSVPath": ".\\assets\\tilemaps\\DOT2.txt",
+                "m_texturePath": "assets/textures/tilemap2.png",
+                "m_tileHeight": 50,
+                "m_tileWidth": 50,
+                "m_tilemapColCount": 25,
+                "m_tilemapColCountUV": 4,
+                "m_tilemapRowCount": 2,
+                "m_tilemapRowCountUV": 3
+            },
+            "m_width": 1.0
+        },
+        {
+            "id": 172813681,
+            "m_axis": [],
+            "m_extents": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_guid": {
+                "guid": "3db2677f41c80064c1fb8c89372c7f62d615b52b7874062cd86c1b3c01287f84"
+            },
+            "m_normal": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_origin": [
+                0.0,
+                0.0
+            ],
+            "m_type": 5,
+            "m_vertices": []
+        },
+        {
+            "id": 589909518,
+            "m_guid": {
+                "guid": "7267601971939b6cad7f35bf917998e280e7e28f187c4443b8b2a74b3f749622"
+            }
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "d36569a5cea9416dbd408d9565304debe663d04e354ccc6fcdceaed9a2592f2f"
+            },
+            "m_height": 50.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 50.0
+        },
+        {
+            "id": 172813681,
+            "m_axis": [],
+            "m_extents": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_guid": {
+                "guid": "575628b5b0c5a7124a2442558a93ab35d337859dfcdc766801de7e69f84987ae"
+            },
+            "m_normal": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_origin": [
+                -431602080.0,
+                -431602080.0
+            ],
+            "m_type": 1,
+            "m_vertices": []
+        },
+        {
+            "id": 97536728,
+            "m_guid": {
+                "guid": "473f3d05159a1fc0fed3d6b60b23c68ae1e7e4303849c7ac8f1d011d1e09affb"
+            }
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "0de94f9de371d2fe4114f2c0d025c671783d940ed3dce6c5e153e0fffde1d09e"
+            },
+            "m_texturePath": ".\\assets\\textures\\redSquare.png"
+        }
+    ],
+    "gameobjects": [
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "7267601971939b6cad7f35bf917998e280e7e28f187c4443b8b2a74b3f749622"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "1d53e67a0306d2e18e68e82b4e9468e99c4a9a8f313908d6f17eea5e0868e298"
+            },
+            "m_name": "Camera",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "4aba133c99a8f5d162ee80598f5d90507586c5e6592a280d33f211d0b16048e6"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "7f066a87c6f68e7ef3792980b9042fbc59677bb32148714a32d0e21d87a42f17"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "3db2677f41c80064c1fb8c89372c7f62d615b52b7874062cd86c1b3c01287f84"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "0acbe4b65ccc46a78a7ad382b6034d114cb61b338572ede6305f9fa6b1dd60f6"
+            },
+            "m_name": "tile",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "d36569a5cea9416dbd408d9565304debe663d04e354ccc6fcdceaed9a2592f2f"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "575628b5b0c5a7124a2442558a93ab35d337859dfcdc766801de7e69f84987ae"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "473f3d05159a1fc0fed3d6b60b23c68ae1e7e4303849c7ac8f1d011d1e09affb"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "0de94f9de371d2fe4114f2c0d025c671783d940ed3dce6c5e153e0fffde1d09e"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "55a657cb86ffc648ef5f106eb4b18222b2a41d39fd53a13b8d24ea6734f07ff7"
+            },
+            "m_name": "Game Object",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        }
+    ]
+}

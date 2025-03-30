@@ -1,0 +1,7 @@
+0,0,
+0,1,
+#texture assets/textures/tilemap2.png
+#tileW 50
+#tileH 50
+#gridW 2
+#gridH 2

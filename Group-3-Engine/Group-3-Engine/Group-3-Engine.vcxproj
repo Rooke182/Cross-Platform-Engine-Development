@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{745479e6-0846-4b21-b4ff-cfa983ea2dfb}</ProjectGuid>
+    <RootNamespace>Group3Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(SolutionDir)Group-3-Engine\libraries\freetype;$(SolutionDir)Group-3-Engine\libraries\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <CustomBuildBeforeTargets>PreBuildEvent</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(SolutionDir)Group-3-Engine\libraries\freetype;$(SolutionDir)Group-3-Engine\libraries\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <CustomBuildBeforeTargets>PreBuildEvent</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(SolutionDir)Group-3-Engine\libraries\freetype;$(SolutionDir)Group-3-Engine\libraries\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <CustomBuildBeforeTargets>PreBuildEvent</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(SolutionDir)Group-3-Engine\libraries\freetype;$(SolutionDir)Group-3-Engine\libraries\glfw\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <CustomBuildBeforeTargets>PreBuildEvent</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Group-3-Engine\libraries\cpptrace\include;$(SolutionDIr)Group-3-Engine\libraries\AL;$(SolutionDir)Group-3-Engine\libraries\freetype\include;$(SolutionDir)Group-3-Engine\libraries\stb;$(SolutionDir)Group-3-Engine\libraries\glad\include;$(SolutionDir)Group-3-Engine\libraries\glm-1.0.1;$(SolutionDIr)Group-3-Engine\libraries\glfw\include;$(SolutionDir)Group-3-Engine\libraries\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>"$(SolutionDir)PreBuild\bin\Debug\net6.0\PreBuild.exe"</Command>
+      <Outputs>$(ProjectDir)PreBuild.h;$(ProjectDir)PreBuild.cpp;$(ProjectDir)SerialisationMacros.h;$(ProjectDir)PublicSerialise.cpp;%(Outputs)</Outputs>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+      <Message>Running PreBuild</Message>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Group-3-Engine\libraries\cpptrace\include;$(SolutionDir)Group-3-Engine\libraries\AL;$(SolutionDir)Group-3-Engine\libraries\freetype\include;$(SolutionDir)Group-3-Engine\libraries\stb;$(SolutionDir)Group-3-Engine\libraries\glad\include;$(SolutionDir)Group-3-Engine\libraries\glm-1.0.1;$(SolutionDIr)Group-3-Engine\libraries\glfw\include;$(SolutionDir)Group-3-Engine\libraries\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>"$(SolutionDir)PreBuild\bin\Debug\net6.0\PreBuild.exe"</Command>
+      <Outputs>$(ProjectDir)PreBuild.h;$(ProjectDir)PreBuild.cpp;$(ProjectDir)SerialisationMacros.h;$(ProjectDir)PublicSerialise.cpp;%(Outputs)</Outputs>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+      <Message>Running PreBuild</Message>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Group-3-Engine\libraries\cpptrace\include;$(SolutionDir)Group-3-Engine\libraries\AL;$(SolutionDir)Group-3-Engine\libraries\freetype\include;$(SolutionDir)Group-3-Engine\libraries\stb;$(SolutionDir)Group-3-Engine\libraries\glad\include;$(SolutionDir)Group-3-Engine\libraries\glm-1.0.1;$(SolutionDIr)Group-3-Engine\libraries\glfw\include;$(SolutionDir)Group-3-Engine\libraries\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <DisableSpecificWarnings>4005;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;cpptrace.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(solutiondir)Group-3-Engine\libraries\cpptrace\include;$(SolutionDir)Group-3-Engine\libraries\ALlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CustomBuildStep>
+      <Command>"$(SolutionDir)PreBuild\bin\Debug\net6.0\PreBuild.exe"</Command>
+      <Outputs>$(ProjectDir)PreBuild.h;$(ProjectDir)PreBuild.cpp;$(ProjectDir)SerialisationMacros.h;$(ProjectDir)PublicSerialise.cpp;%(Outputs)</Outputs>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+      <Message>Running PreBuild</Message>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Group-3-Engine\libraries\cpptrace\include;$(SolutionDir)Group-3-Engine\libraries\AL;$(SolutionDir)Group-3-Engine\libraries\freetype\include;$(SolutionDir)Group-3-Engine\libraries\stb;$(SolutionDir)Group-3-Engine\libraries\glad\include;$(SolutionDir)Group-3-Engine\libraries\glm-1.0.1;$(SolutionDIr)Group-3-Engine\libraries\glfw\include;$(SolutionDir)Group-3-Engine\libraries\nlohmann;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <DisableSpecificWarnings>4005;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freetype.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Group-3-Engine\libraries\ALlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CustomBuildStep>
+      <Command>"$(SolutionDir)PreBuild\bin\Debug\net6.0\PreBuild.exe"</Command>
+      <Outputs>$(ProjectDir)PreBuild.h;$(ProjectDir)PreBuild.cpp;$(ProjectDir)SerialisationMacros.h;$(ProjectDir)PublicSerialise.cpp;%(Outputs)</Outputs>
+      <TreatOutputAsContent>true</TreatOutputAsContent>
+      <Message>Running PreBuild</Message>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIGridManager.cpp" />
+    <ClCompile Include="AIAgent.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimatorComponent.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AudioComponent.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="BaseComponent.cpp" />
+    <ClCompile Include="BehaviourTree.cpp" />
+    <ClCompile Include="BTNode.cpp" />
+    <ClCompile Include="BTSelectorNode.cpp" />
+    <ClCompile Include="BTSequenceNode.cpp" />
+    <ClCompile Include="ColliderRenderComponent.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="ComponentPtr.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="ConstantBuffer.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Debugger.cpp" />
+    <ClCompile Include="ExampleBT.cpp" />
+    <ClCompile Include="FlappyCatController.cpp" />
+    <ClCompile Include="FontTexture.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="InputObserverComponent.cpp" />
+    <ClCompile Include="GlmSerialise.cpp" />
+    <ClCompile Include="Guid.cpp" />
+    <ClCompile Include="libraries\glad\src\glad.c" />
+    <ClCompile Include="libraries\ImGUI\imgui.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="NavigationComponent.cpp" />
+    <ClCompile Include="Particles.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="PlayerControllerComponent.cpp" />
+    <ClCompile Include="PostProcess.cpp" />
+    <ClCompile Include="PostProcessRenderComponent.cpp" />
+    <ClCompile Include="PreBuild.cpp" />
+    <ClCompile Include="ProceduralGeneration.cpp" />
+    <ClCompile Include="PublicSerialise.cpp" />
+    <ClCompile Include="RandomNum.cpp" />
+    <ClCompile Include="RenderComponent.cpp" />
+    <ClCompile Include="RenderData.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="RotatorComponent.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SpriteRenderComponent.cpp" />
+    <ClCompile Include="SteeringBehaviourComponent.cpp" />
+    <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="TextRenderComponent.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TilemapData.cpp" />
+    <ClCompile Include="TilemapRenderComponent.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimerManager.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="UITestButton.cpp" />
+    <ClCompile Include="UITestQuitButton.cpp" />
+    <ClCompile Include="UITestScene.cpp" />
+    <ClCompile Include="UnusedClearComponent.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UIImage.cpp" />
+    <ClCompile Include="UIScene.cpp" />
+    <ClCompile Include="UIText.cpp" />
+    <ClCompile Include="UIWidget.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="VirtualButtonComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIGridManager.h" />
+    <ClInclude Include="AIAgent.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimatorComponent.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AudioComponent.h" />
+    <ClInclude Include="AudioFile.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="BaseComponent.h" />
+    <ClInclude Include="comboFilter.h" />
+    <ClInclude Include="CompileTimeHash.h" />
+    <ClInclude Include="FlappyCatController.h" />
+    <ClInclude Include="GlmSerialise.h" />
+    <ClInclude Include="Guid.h" />
+    <ClInclude Include="libraries\ImGUI\fts_fuzzy_match.h" />
+    <ClInclude Include="libraries\nlohmann\json.hpp" />
+    <ClInclude Include="libraries\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="BehaviourTree.h" />
+    <ClInclude Include="BTNode.h" />
+    <ClInclude Include="BTSelectorNode.h" />
+    <ClInclude Include="BTSequenceNode.h" />
+    <ClInclude Include="ColliderRenderComponent.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="ComponentPtr.h" />
+    <ClInclude Include="ComponentBuffer.h" />
+    <ClInclude Include="ExampleBT.h" />
+    <ClInclude Include="ConstantBuffer.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputObserverComponent.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="PackedBuffer.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Debugger.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="FontTexture.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="libraries\cpptrace\include\cpptrace\cpptrace.hpp" />
+    <ClInclude Include="libraries\cpptrace\include\ctrace\ctrace.h" />
+    <ClInclude Include="libraries\ImGUI\imconfig.h" />
+    <ClInclude Include="libraries\ImGUI\imgui.h" />
+    <ClInclude Include="libraries\ImGUI\imgui_impl_glfw.h" />
+    <ClInclude Include="libraries\ImGUI\imgui_impl_opengl3.h" />
+    <ClInclude Include="libraries\ImGUI\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="libraries\ImGUI\imgui_internal.h" />
+    <ClInclude Include="libraries\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="libraries\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="libraries\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="NavigationComponent.h" />
+    <ClInclude Include="Particles.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PlayerControllerComponent.h" />
+    <ClInclude Include="PostProcess.h" />
+    <ClInclude Include="PostProcessRenderComponent.h" />
+    <ClInclude Include="PreBuild.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="ProceduralGeneration.h" />
+    <ClInclude Include="RandomNum.h" />
+    <ClInclude Include="RenderComponent.h" />
+    <ClInclude Include="RenderData.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="RotatorComponent.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SerialisationMacros.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SpriteRenderComponent.h" />
+    <ClInclude Include="SteeringBehaviourComponent.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="SubjectInstance.h" />
+    <ClInclude Include="TextRenderComponent.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TilemapData.h" />
+    <ClInclude Include="TilemapRenderComponent.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimerManager.h" />
+    <ClInclude Include="TransformComponent.h" />
+    <ClInclude Include="UITestButton.h" />
+    <ClInclude Include="UITestQuitButton.h" />
+    <ClInclude Include="UITestScene.h" />
+    <ClInclude Include="UnusedClearComponent.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UIImage.h" />
+    <ClInclude Include="UIScene.h" />
+    <ClInclude Include="UIText.h" />
+    <ClInclude Include="UIWidget.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VirtualButtonComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\scenes\AIScene.json" />
+    <None Include="assets\scenes\DebugScene.json" />
+    <None Include="assets\scenes\GraphicsScene2.json" />
+    <None Include="assets\scenes\InputScene.json" />
+    <None Include="assets\scenes\PhysicsScene.json" />
+    <None Include="assets\scenes\SerialisationScene.json" />
+    <None Include="shaders\base.frag" />
+    <None Include="shaders\base.vert" />
+    <None Include="shaders\text.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Group-3-Engine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

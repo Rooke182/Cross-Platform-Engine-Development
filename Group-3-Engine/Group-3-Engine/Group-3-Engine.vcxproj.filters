@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BaseComponent.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="libraries\glad\src\glad.c">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderData.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderComponent.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderComponent.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="FontTexture.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="AIGridManager.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="AIAgent.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationComponent.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviourComponent.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapData.cpp" />
+    <ClCompile Include="TilemapRenderComponent.cpp" />
+    <ClCompile Include="BTNode.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTree.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="BTSequenceNode.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="BTSelectorNode.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentPtr.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Guid.cpp" />
+    <ClCompile Include="Collider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorComponent.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralGeneration.cpp" />
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="PublicSerialise.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="ColliderRenderComponent.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="PostProcess.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessRenderComponent.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="InputObserverComponent.cpp" />
+    <ClCompile Include="PostProcess.cpp" />
+    <ClCompile Include="PostProcessRenderComponent.cpp" />
+    <ClCompile Include="VirtualButtonComponent.cpp" />
+    <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="RotatorComponent.cpp" />
+    <ClCompile Include="UnusedClearComponent.cpp" />
+    <ClCompile Include="GlmSerialise.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_demo.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_draw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_tables.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_widgets.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBuild.cpp" />
+    <ClCompile Include="AudioComponent.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="UIWidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScene.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderRenderComponent.cpp" />
+    <ClCompile Include="libraries\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNum.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="UITestScene.cpp" />
+    <ClCompile Include="ExampleBT.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="UITestButton.cpp" />
+    <ClCompile Include="PlayerControllerComponent.cpp" />
+    <ClCompile Include="FlappyCatController.cpp" />
+    <ClCompile Include="UITestQuitButton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseComponent.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderData.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderComponent.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderComponent.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="FontTexture.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AIGridManager.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAgent.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationComponent.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviourComponent.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapData.h" />
+    <ClInclude Include="TilemapRenderComponent.h" />
+    <ClInclude Include="BTNode.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BTSequenceNode.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BTSelectorNode.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cpptrace\include\cpptrace\cpptrace.hpp">
+      <Filter>libraries\cpptrace</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cpptrace\include\ctrace\ctrace.h">
+      <Filter>libraries\cpptrace</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioComponent.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPtr.h" />
+    <ClInclude Include="ComponentBuffer.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="PreBuild.h" />
+    <ClInclude Include="CompileTimeHash.h" />
+    <ClInclude Include="Guid.h" />
+    <ClInclude Include="libraries\nlohmann\json.hpp" />
+    <ClInclude Include="libraries\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="SerialisationMacros.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="Collider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedBuffer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorComponent.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="ProceduralGeneration.h" />
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="UIWidget.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="UIScene.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="SubjectInstance.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="SubjectInstance.h" />
+    <ClInclude Include="PostProcess.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessRenderComponent.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="InputObserverComponent.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PostProcess.h" />
+    <ClInclude Include="PostProcessRenderComponent.h" />
+    <ClInclude Include="VirtualButtonComponent.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="SubjectInstance.h" />
+    <ClInclude Include="RotatorComponent.h" />
+    <ClInclude Include="UnusedClearComponent.h" />
+    <ClInclude Include="GlmSerialise.h" />
+    <ClInclude Include="libraries\ImGUI\imconfig.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imgui.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imgui_impl_glfw.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imgui_impl_opengl3.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imgui_impl_opengl3_loader.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imgui_internal.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imstb_rectpack.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imstb_textedit.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ImGUI\imstb_truetype.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFile.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderRenderComponent.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="SubjectInstance.h" />
+    <ClInclude Include="CollisionManager.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\include\glad\glad.h" />
+    <ClInclude Include="Particles.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNum.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="UITestScene.h" />
+    <ClInclude Include="ExampleBT.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="UITestButton.h" />
+    <ClInclude Include="libraries\ImGUI\fts_fuzzy_match.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="comboFilter.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControllerComponent.h" />
+    <ClInclude Include="FlappyCatController.h" />
+    <ClInclude Include="UITestQuitButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\text.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\base.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\base.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\scenes\DebugScene.json">
+      <Filter>scenes</Filter>
+    </None>
+    <None Include="assets\scenes\GraphicsScene2.json">
+      <Filter>scenes</Filter>
+    </None>
+    <None Include="assets\scenes\PhysicsScene.json">
+      <Filter>scenes</Filter>
+    </None>
+    <None Include="assets\scenes\SerialisationScene.json">
+      <Filter>scenes</Filter>
+    </None>
+    <None Include="assets\scenes\AIScene.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{213b8074-e52f-46c9-a0a0-d802d3f5a4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{62a26417-a116-4e9b-b5d5-7f56f03ea75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui">
+      <UniqueIdentifier>{a5c7d602-746d-489d-b5c5-9ece63d85120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{bfb214d2-3c87-4952-b170-faa35cd3fb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{eb501610-4b61-4a8e-9c76-12b4eeb8e433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{a6fe5dcd-3962-48f7-a56c-f05b1ff0f12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{9bcbb6e4-573b-49b0-9208-407059830507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ai">
+      <UniqueIdentifier>{5a7a61c5-3e93-465b-ae5e-6a31767d0c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\cpptrace">
+      <UniqueIdentifier>{533550f7-399a-4262-b306-40757f0dbe31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{30fe4a2e-8404-44c9-b552-a8520fab5c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{a2e5fe68-33ca-4974-99b7-e1ac03ab72fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{7a337ecf-1f4b-4348-8e7b-a6e38d50efc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{1bf142c2-e2ca-43f3-97a7-70f952fb3d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{d67861ea-a842-41eb-94ac-4e1724dc9827}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Group-3-Engine.rc" />
+  </ItemGroup>
+</Project>

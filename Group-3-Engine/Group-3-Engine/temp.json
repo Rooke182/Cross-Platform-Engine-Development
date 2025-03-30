@@ -1,0 +1,267 @@
+{
+    "components": [
+        {
+            "id": 4361531,
+            "m_angle": 0.0,
+            "m_guid": {
+                "guid": "4cb2b249321c5bdc0c132b88f6cdd640e3037cb39cead1d805657bc9a279bbd4"
+            },
+            "m_height": 720.0,
+            "m_width": 1280.0,
+            "m_x": -384.0,
+            "m_y": -372.0,
+            "m_zoom": 0.6000000238418579
+        },
+        {
+            "id": 3543860345,
+            "m_font": "assets/fonts/comic.ttf",
+            "m_fontSize": 50,
+            "m_guid": {
+                "guid": "5b0150cf7ca398ad0002f94f0f357f9cc579c6d435221b21aed8de703dff2a7e"
+            },
+            "m_text": "the cats dissapproves of you using this scene"
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "7277b9366786013aff12a3c06c14069ff4493fa9f42b353c251f02141ef09c63"
+            },
+            "m_height": 1.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": -670.0,
+                "y": -38.000213623046875,
+                "z": 1.0000014305114746
+            },
+            "m_scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 1.0
+            },
+            "m_width": 1.0
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "3bd38337416813dd8918a09b66839f1e9aed94ef603332ffb004c383be4dca01"
+            },
+            "m_texturePath": ".\\assets\\textures\\kassy 2.png"
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "c4f5e7ab01cbfced01bd8e42204a6e4b4a3a9822048c5becb0b0baad0cf61361"
+            },
+            "m_height": 799.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": -704.6666259765625,
+                "y": -15.833343505859375,
+                "z": 0.6666665077209473
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 574.0
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "c9ca1cd49aacb78248b3a8d61727ee61a241ac4ac5822b42ba4921b982a53452"
+            },
+            "m_height": 1.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": -359.666748046875,
+                "y": 871.6666259765625,
+                "z": 0.6666665077209473
+            },
+            "m_scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 1.0
+            },
+            "m_width": 1.0
+        },
+        {
+            "id": 3543860345,
+            "m_font": "assets/fonts/comic.ttf",
+            "m_fontSize": 32,
+            "m_guid": {
+                "guid": "8768ba957f7dc3e5937b59b1c17906ee7f2597c4a11020877c4c40ea4c39a66f"
+            },
+            "m_text": "Change it in the scene selector page... or else"
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "715a98a127de51e459a04a7953c5e5d01951e13a083f209dbbd2ad6c2c26fdd6"
+            },
+            "m_height": 799.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 653.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.5,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 574.0
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "1b0a753eb4122dec6ce7f4022ce294b1b1d957ac3339c9dd4455c058fcfe9a8d"
+            },
+            "m_texturePath": ".\\assets\\textures\\Chunky.png"
+        }
+    ],
+    "gameobjects": [
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "4cb2b249321c5bdc0c132b88f6cdd640e3037cb39cead1d805657bc9a279bbd4"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "5e989af95c9fc207db63f04cdd314d20e4d19221a96666341095e6c65ce98558"
+            },
+            "m_name": "Camera",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "7277b9366786013aff12a3c06c14069ff4493fa9f42b353c251f02141ef09c63"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "5b0150cf7ca398ad0002f94f0f357f9cc579c6d435221b21aed8de703dff2a7e"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "a01664971aee4cd6b8401480f1329c0933124e42e04546e59781b56eb43d872d"
+            },
+            "m_name": "Text 1",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "c4f5e7ab01cbfced01bd8e42204a6e4b4a3a9822048c5becb0b0baad0cf61361"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "3bd38337416813dd8918a09b66839f1e9aed94ef603332ffb004c383be4dca01"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "6e2f90b3e626d0c191e8800cdeba24190e64ad243c2d9db79b066b7b0006294f"
+            },
+            "m_name": "Kassy",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "c9ca1cd49aacb78248b3a8d61727ee61a241ac4ac5822b42ba4921b982a53452"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "8768ba957f7dc3e5937b59b1c17906ee7f2597c4a11020877c4c40ea4c39a66f"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "509c7275ccd6f97835856ed8161b46c63060f96664c407c8d4f33d1a46ab341c"
+            },
+            "m_name": "Text 2",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "715a98a127de51e459a04a7953c5e5d01951e13a083f209dbbd2ad6c2c26fdd6"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "1b0a753eb4122dec6ce7f4022ce294b1b1d957ac3339c9dd4455c058fcfe9a8d"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "8b9b2603e119693f5c55ee49b140adcc2a0edab94848aff4ac1d6b4d37fa9bb1"
+            },
+            "m_name": "Chunky",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        }
+    ]
+}

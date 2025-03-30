@@ -1,0 +1,208 @@
+{
+    "components": [
+        {
+            "id": 4361531,
+            "m_angle": 0.0,
+            "m_guid": {
+                "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+            },
+            "m_height": 720.0,
+            "m_width": 1280.0,
+            "m_x": 0.0,
+            "m_y": 0.0,
+            "m_zoom": 0.5
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "db37d7c8b22ebfefe2f5abad6860ad161cbb766d410c828c5b99908640aa558c"
+            },
+            "m_height": 50.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 50.0
+        },
+        {
+            "id": 172813681,
+            "m_axis": [],
+            "m_extents": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_guid": {
+                "guid": "7290710dace6a221bb1738288f21c9ae9298259339ed8c68d8f01f1bba9495d7"
+            },
+            "m_normal": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_origin": [
+                0.0,
+                0.0
+            ],
+            "m_type": 1,
+            "m_vertices": []
+        },
+        {
+            "id": 4098430829,
+            "m_accel": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_drag": 0.0,
+            "m_friction": false,
+            "m_grav": -9.8100004196167,
+            "m_gravity": false,
+            "m_guid": {
+                "guid": "71f22f266b91ee59c6e503296515879e44026c300884b42ddbf6e05a76f6acdd"
+            },
+            "m_mass": 0.0,
+            "m_netForce": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_velocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "7f66f95a16b60b5dab66f4f812c650add901338dd95960a20bb4bc8b9d580266"
+            },
+            "m_texturePath": ".\\assets\\textures\\redSquare.png"
+        },
+        {
+            "id": 589909518,
+            "m_colliding": true,
+            "m_guid": {
+                "guid": "d0c3f3371dc95ec6431c52597cde01ad9c66f574a28546b38d0e106971952471"
+            }
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "8a48d0e2d9dccc027c305fe15e4ff5857b138f40f5ec738c64dd213a6ec78acc"
+            },
+            "m_height": 1.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 1.0
+        }
+    ],
+    "gameobjects": [
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "d0c3f3371dc95ec6431c52597cde01ad9c66f574a28546b38d0e106971952471"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "1d53e67a0306d2e18e68e82b4e9468e99c4a9a8f313908d6f17eea5e0868e298"
+            },
+            "m_name": "Camera",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "db37d7c8b22ebfefe2f5abad6860ad161cbb766d410c828c5b99908640aa558c"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "7290710dace6a221bb1738288f21c9ae9298259339ed8c68d8f01f1bba9495d7"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "71f22f266b91ee59c6e503296515879e44026c300884b42ddbf6e05a76f6acdd"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "7f66f95a16b60b5dab66f4f812c650add901338dd95960a20bb4bc8b9d580266"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "03e07a0f55dfdef992767470c74ccd0c3a647777fb5a2dd1bbe94b53e1b18533"
+            },
+            "m_name": "Player",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "8a48d0e2d9dccc027c305fe15e4ff5857b138f40f5ec738c64dd213a6ec78acc"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "190c2dc831bf666aa39b7784aac38de4f006c47da4a8e254cd65459ddeb31a20"
+            },
+            "m_name": "Game Object",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        }
+    ]
+}

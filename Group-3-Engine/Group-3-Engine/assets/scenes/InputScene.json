@@ -1,0 +1,285 @@
+{
+    "components": [
+        {
+            "id": 4361531,
+            "m_angle": 0.0,
+            "m_guid": {
+                "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+            },
+            "m_height": 720.0,
+            "m_width": 1280.0,
+            "m_x": 86.0,
+            "m_y": 52.0,
+            "m_zoom": 0.5
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+            },
+            "m_guid": {
+                "guid": "7bd5e3d848fa10bd9b40c73a7cda80bb3440e11dbdd5d57078c6defc1e35ac83"
+            },
+            "m_height": 525.0,
+            "m_pivot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 24.0,
+                "y": 4.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 700.0
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "f997eec6545a684a30cb465c3838b053f7519e1549d4eedd0f6ab43b27ccd15c"
+            },
+            "m_texturePath": ".\\assets\\textures\\oscar2.jpg"
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "0638c7d8d6f735c89a33300c6a2e3e278f9f8b9f4561d454bf6d830f6c061c5e"
+            },
+            "m_height": 525.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": 290.0,
+                "y": -381.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "m_width": 700.0
+        },
+        {
+            "id": 504916531,
+            "m_guid": {
+                "guid": "7933d7a097728f5cfeabdad7b1637ae50432f4ff5c777e96374a1ea76cb21190"
+            },
+            "m_texturePath": ".\\assets\\textures\\jasper2.jpg"
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "733c190b0651af06194a69261779a45bfd73f00f610929b6b479e3a7c4e50b2a"
+            },
+            "m_height": 1.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": -923.0,
+                "y": -627.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 1.0
+            },
+            "m_width": 1.0
+        },
+        {
+            "id": 3543860345,
+            "m_font": "assets/fonts/comic.ttf",
+            "m_fontSize": 32,
+            "m_guid": {
+                "guid": "8403ccd21017b00dec1e08f98c4c8d791ab947897358aece7328107172ae322e"
+            },
+            "m_text": "Use the WASD or arrow keys to move the left cat image."
+        },
+        {
+            "id": 4139407642,
+            "m_angle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_guid": {
+                "guid": "ce99b51936b799f44fa85554b5260be33851aae2e0a413c32e287af4a5e70ff9"
+            },
+            "m_height": 1.0,
+            "m_pivot": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "m_position": {
+                "x": -1329.0,
+                "y": -562.0,
+                "z": 0.0
+            },
+            "m_scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 1.0
+            },
+            "m_width": 1.0
+        },
+        {
+            "id": 3543860345,
+            "m_font": "assets/fonts/comic.ttf",
+            "m_fontSize": 32,
+            "m_guid": {
+                "guid": "89a4debde7c9f42ad5a1c4f7fbc7c9c152df6c5e2c83276e7580eb323843bfa2"
+            },
+            "m_text": "If controller connected, use the left stick or the DPAD to move the left cat image"
+        },
+        {
+            "id": 2100959466,
+            "m_guid": {
+                "guid": "c8007ec3251ec16255ab09fc6bf8b194303e604623902ed8be0d0891fb5a554e"
+            },
+            "m_interactVirtualButton": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            },
+            "m_joystickVirtualButton": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            },
+            "m_movementSpeed": 200.0
+        }
+    ],
+    "gameobjects": [
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "3d9153c3808e427febaffb3f27c6950e25cfb255b42eb1475337257c43f385dc"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "1d53e67a0306d2e18e68e82b4e9468e99c4a9a8f313908d6f17eea5e0868e298"
+            },
+            "m_name": "Camera",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "7bd5e3d848fa10bd9b40c73a7cda80bb3440e11dbdd5d57078c6defc1e35ac83"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "f997eec6545a684a30cb465c3838b053f7519e1549d4eedd0f6ab43b27ccd15c"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "c8007ec3251ec16255ab09fc6bf8b194303e604623902ed8be0d0891fb5a554e"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "bb1cfeba0f649ac87d90f8486cb8debce21c9ef8f8c233e08b618c73357e2809"
+            },
+            "m_name": "oscar",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "0638c7d8d6f735c89a33300c6a2e3e278f9f8b9f4561d454bf6d830f6c061c5e"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "7933d7a097728f5cfeabdad7b1637ae50432f4ff5c777e96374a1ea76cb21190"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "523ef0a49e2326945797327fac9a5f93dc018166f927d945ede038c9baae67aa"
+            },
+            "m_name": "jasper",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "733c190b0651af06194a69261779a45bfd73f00f610929b6b479e3a7c4e50b2a"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "8403ccd21017b00dec1e08f98c4c8d791ab947897358aece7328107172ae322e"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "52e358ac05af82c438e0ce854ce441ec15d0efd1dd521b77abe69f62c54d8f68"
+            },
+            "m_name": "text1",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        {
+            "m_children": [],
+            "m_components": [
+                {
+                    "m_component": {
+                        "guid": "ce99b51936b799f44fa85554b5260be33851aae2e0a413c32e287af4a5e70ff9"
+                    }
+                },
+                {
+                    "m_component": {
+                        "guid": "89a4debde7c9f42ad5a1c4f7fbc7c9c152df6c5e2c83276e7580eb323843bfa2"
+                    }
+                }
+            ],
+            "m_guid": {
+                "guid": "ab056724b651794c6220d22b424a3b7afa6f27eb48e5deb946f4da83e946715a"
+            },
+            "m_name": "text2",
+            "m_parent": {
+                "guid": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        }
+    ]
+}
